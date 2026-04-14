@@ -4,11 +4,11 @@ import { Input } from '../ui/input'
 import { Button } from '../ui/button'
 import AdminJobsTable from './AdminJobsTable'
 import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
+
 
 import { useDispatch } from 'react-redux'
 import { setSearchJobByText } from '@/redux/jobslice'
-import useGetAllAdminJobs from '@/Hooks/useGetAllAdminJobs'
+import useGetAllAdminJobs from '@/hooks/useGetAllAdminJobs'
 
 const AdminJobs = () => {
    useGetAllAdminJobs();

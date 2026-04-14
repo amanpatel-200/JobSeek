@@ -7,7 +7,7 @@ import { Badge } from "./ui/badge";
 import AppliedTable from "./AppliedTable";
 import UpdateProfileDialog from "./UpdateProfileDialog";
 import { useSelector } from "react-redux";
-import useGetAppliedJobs from "@/Hooks/useGetAppliedJobs";
+import useGetAppliedJobs from "@/hooks/useGetAppliedJobs";
 //const skills = ["html","css","JavaScript", "React js"];
 const isResume = true;
 const Profile = () => {
