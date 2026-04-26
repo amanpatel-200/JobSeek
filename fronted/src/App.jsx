@@ -31,7 +31,7 @@ import ProtectedRoute from './components/admin/ProtectedRoute'
     
     {
       path:"/jobs",
-      element: <ProtectedRoute><Jobs/></ProtectedRoute>
+      element: <Jobs/>
     },
     {
       path:"/description/:id",
